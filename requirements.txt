@@ -1,0 +1,9 @@
+# Core requirements (minimal)
+requests>=2.25.0
+
+# Optional requirements for enhanced features
+# Uncomment if you want enhanced validation and Groq client
+pydantic>=2.0.0
+groq>=0.4.0
+
+# Note: No need for python-dotenv since we handle .env loading manually
